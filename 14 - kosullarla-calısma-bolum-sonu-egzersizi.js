@@ -24,35 +24,37 @@ if(not => 90)
 {
     notharf = "AA"
 }
-else if (not => 85)
+else if (not >= 85)
 {
     notharf = "BA"
 }
-else if (not => 80)
+else if (not >= 80)
 {
     notharf = "BB"
 }
-else if (not => 75)
+else if (not >= 75)
 {
-    notharf = "BA"
+    notharf = "CB"
 }
-else if (not => 70)
+else if (not >= 70)
 {
-    notharf = "BA"
+    notharf = "CC"
 }
-else if (not => 65)
+else if (not >= 65)
 {
-    notharf = "BA"
+    notharf = "DC"
 }
-else if (not => 60)
+else if (not >= 60)
 {
-    notharf = "BA"
+    notharf = "DD"
 }
-else if (not => 50)
+else if (not >= 50)
 {
-    notharf = "BA"
+    notharf = "FD"
 }
 else if (not <= 49)
 {
     notharf = "FF"
 }
+
+console.log(notharf)
