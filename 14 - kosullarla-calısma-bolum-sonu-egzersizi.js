@@ -20,7 +20,7 @@ FF  0-49
 let not = prompt("Notunuzu giriniz = ")
 let notharf;
 
-if(not => 90)
+if(not >= 90)
 {
     notharf = "AA"
 }
