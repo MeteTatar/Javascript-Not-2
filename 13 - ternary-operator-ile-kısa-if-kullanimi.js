@@ -6,4 +6,4 @@ let info = document.querySelector("#info")
 // ternary kullanımı
 // koşul ? doğruysa : yanlışsa
 
-info.innerHTML = `${username.length > 0 ? username : "kullanıcı bilgisi bulunamadı"}`
+info.innerHTML = `${username.length > 0 ? username : "Kullanıcı bilgisi bulunamadı..."}`
