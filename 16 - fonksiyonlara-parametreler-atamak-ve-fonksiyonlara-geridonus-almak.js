@@ -18,3 +18,13 @@ function greetings (fname = "Otto", lname = "red")
 console.log(fname) // Değişken
 greetings() // Fonksiyona parametre göndermedik ?
 greetings("sonra yazdır") // önce greetings fonksiyonunun içini yazdırıyor sonra parametreyi yazdırıyor
+
+
+function greetings2(firstname, lastname)
+{
+    let info = `Merhaba ${firstname} ${lastname}`
+    return info
+}
+
+let info = greetings2("info", "eklendi")
+console.log(info)
