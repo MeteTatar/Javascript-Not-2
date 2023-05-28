@@ -6,15 +6,15 @@
 // 3: Mümkünse fonksiyonun bağımlılıklarını azaltmak gerekir.
 
 
-let fname = "Mete"
+let fname = "Mete" // burada değişkene Mete ismini atadık yani bundan fonksiyonumuz etkilenmiyor
 
-function greetings (fname = "", lname = "")
+function greetings (fname = "Otto", lname = "red")
 {
     console.log(`Merhaba ${fname}`)
-    console.log(`Merhaba ${fname}, ${lname}`)
+    console.log(`Merhaba ${fname} ${lname}`)
 }
 
 
 console.log(fname) // Değişken
 greetings() // Fonksiyona parametre göndermedik ?
-greetings("Parametre")
+greetings("sonra yazdır") // önce greetings fonksiyonunun içini yazdırıyor sonra parametreyi yazdırıyor
