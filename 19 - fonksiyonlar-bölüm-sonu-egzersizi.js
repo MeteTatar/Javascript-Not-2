@@ -19,3 +19,8 @@ function clickevent() // clickevent adında bir fonksiyon tanımlanır, bu fonks
     this.id == "increase" ? counter += 1 : counter -= 1 // Ternary operatörü kullanarak, tıklanan butonun id'sine göre sayaç değeri arttırılır veya azaltılır
     counterDOM.innerHTML = counter// counterDOM'un HTML içeriği güncellenir ve sayaç değeri görüntülenir
 }
+
+// Bu kod, sayfa üzerindeki HTML elementlerine erişmek için document.querySelector() yöntemini kullanır. querySelector() yöntemi, belirtilen CSS seçicisine göre ilk eşleşen HTML elementini döndürür. 
+// Bu kodda, #counter, #increase ve #decrease CSS seçicileri kullanılarak, sırasıyla sayaçın mevcut değerini görüntülemek için bir span elementi ve arttırma/azaltma butonları için button elementleri seçilir.
+// Daha sonra, arttırma ve azaltma butonlarına birer click olayı dinleyicisi eklenir. Bu olay dinleyicileri, butonlara tıklandığında çağrılacak olan clickevent() fonksiyonu ile ilişkilendirilir.
+// clickevent() fonksiyonu, tıklanan butonun id'sine göre sayaç değerini arttırır veya azaltır. Arttırma veya azaltma işlemi ternary operatörü kullanılarak yapılır. Son olarak, sayaç değeri güncellenir ve HTML içeriği yenilenir.
