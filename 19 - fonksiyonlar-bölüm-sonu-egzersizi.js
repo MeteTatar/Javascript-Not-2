@@ -20,6 +20,7 @@ function clickevent() // clickevent adında bir fonksiyon tanımlanır, bu fonks
     counterDOM.innerHTML = counter// counterDOM'un HTML içeriği güncellenir ve sayaç değeri görüntülenir
 }
 
+
 // Bu kod, sayfa üzerindeki HTML elementlerine erişmek için document.querySelector() yöntemini kullanır. querySelector() yöntemi, belirtilen CSS seçicisine göre ilk eşleşen HTML elementini döndürür. 
 // Bu kodda, #counter, #increase ve #decrease CSS seçicileri kullanılarak, sırasıyla sayaçın mevcut değerini görüntülemek için bir span elementi ve arttırma/azaltma butonları için button elementleri seçilir.
 // Daha sonra, arttırma ve azaltma butonlarına birer click olayı dinleyicisi eklenir. Bu olay dinleyicileri, butonlara tıklandığında çağrılacak olan clickevent() fonksiyonu ile ilişkilendirilir.
