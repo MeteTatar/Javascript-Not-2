@@ -75,27 +75,29 @@
 
     <!-- 24 bölüm sonu -->
 
-    <div class="mt-5">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-sm-4 offset-sm-1 border border-2 rounded">
-                <form id="userform">
-                    <div class="mx-5 mt-5">
-                        <div class="row">
-                            <div class="col-3"><label for="username" class="form-label">Kullanıcı Adı :</label></div>
-                            <div class="col-9"><input type="text" class="form-control rounded-pill" name="username" id="username"></div>
-                        </div>
+            <div class="col-sm-8 offset-sm-2 border border-1">
+                <form id="userForm">
+                    <div class="mb-3">
+                        <label class="form-label" for="username">Kullanici Adi</label>
+                        <input class="form-control" type="text" name="username" id="username">
                     </div>
-                    <div class="mx-5 mt-3">
-                        <div class="row">
-                            <div class="col-3"><label for="username" class="form-label">Not Bilgisi :</label></div>
-                            <div class="col-9"><input type="text" class="form-control rounded-pill" name="username" id="username"></div>
-                        </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="score">Not Bilgisi</label>
+                        <input class="form-control" type="number" name="score" id="score">
                     </div>
-                    <div class="mx-5 my-4 text-center">
-                        <button class="btn btn-danger">Sıfırla</button>
-                        <button class="btn btn-success">Gönder</button>
+                    <div class="mb-3">
+
+                        <button type="reset" class="btn btn-danger">Sifirla</button>
+                        <button type="submit" class="btn btn-success">Gonder</button>
                     </div>
                 </form>
+            </div>
+            <div class="col-sm-8 offset-sm-2 mt-4">
+                <ul class="list-group" id="userList">
+                    
+                  </ul>
             </div>
         </div>
     </div>
