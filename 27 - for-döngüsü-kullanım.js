@@ -12,3 +12,14 @@ for (let i = 1; i <= 10; i++)
     document.write(i);
 }
   
+
+let users = ["Car" , "Bike" , "Plane"]
+
+const userListDOM = document.querySelector("#userList");
+
+for ( index = 0; index < users.length; index++)
+{
+    const liDOM = document.createElement("li")
+    liDOM.innerHTML = users[index]
+    userListDOM.appendChild(liDOM) 
+}
